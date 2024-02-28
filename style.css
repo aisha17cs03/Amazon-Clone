@@ -197,6 +197,7 @@ span{
 
 .hero-msg a{
     color:#007185;
+    
 }
 
 
@@ -206,7 +207,7 @@ span{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    background-color: #e2e7e6;
+    background-color:#fdf0f0;;
 }
 
 .box{
@@ -331,7 +332,12 @@ ul a{
     font-size: 0.85rem;
     margin-top: 10px;
     color:#DDDDDD;
+    text-decoration: none;
 
+}
+
+a{
+    text-decoration: none;
 }
 
 .foot-panel3{
@@ -351,11 +357,15 @@ ul a{
     width: 100px;
 }
 
+.footer-border {
+    border-color:#3a4553;
+    border: 0px;
+}
 
 .foot-panel4{
     font-size: 0.7rem;
     text-align: center;
-    background-color: #0f1111;
+    background-color: #131A22;
     color: #FFFFFF;
     height: 80px;
 
@@ -363,9 +373,14 @@ ul a{
 
 .pages{
    padding-top: 25px;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
 }
 
 .copyright{
     padding-top: 5px;
-    
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
